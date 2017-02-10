@@ -14,6 +14,13 @@ This will prompt the user for permission to use the camera and the library when 
 
 
 
+## Installation
+
+- `cordova plugin add https://github.com/Michelemassari/cordova-plugin-camera-permission#0.1.0 —save`
+- `cordova platform rm ios && cordova platform add ios`
+
+
+
 ## Supported Platforms
 
 iOS
