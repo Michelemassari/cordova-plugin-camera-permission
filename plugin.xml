@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-camera-permission" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>Ask for camera and photo library permission</name>
+    <author>Mike Massari (http://michelemassari.com/)</author>
+    <description>Cordova / PhoneGap Plugin to explicitly ask for permission to use camera and photo library</description>
+    <keywords>cordova, ios, cordova-ios, app, camera, photo, library, permission, NSCameraUsageDescription, NSPhotoLibraryUsageDescription</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+          <string/>
+      </config-file>
+      <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+          <string/>
+      </config-file>
+    </platform>
+</plugin>

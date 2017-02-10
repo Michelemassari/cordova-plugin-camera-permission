@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-camera-permission",
+  "version": "0.1.0",
+  "author": "Mike Massari <michele@michelemassari.net> (http://michelemassari.net/)",
+  "description": "Cordova / PhoneGap Plugin to explicitly ask for permission to use camera and photo library",
+  "cordova": {
+    "id": "cordova-plugin-camera-permission",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michelemassari/cordova-plugin-camera-permission.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "cordova-ios",
+    "app",
+    "camera",
+    "photo",
+    "library",
+    "permission",
+    "NSCameraUsageDescription",
+    "NSPhotoLibraryUsageDescription",
+    "ecosystem:cordova"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michelemassari/cordova-plugin-camera-permission/issues"
+  },
+  "homepage": "https://github.com/michelemassari/cordova-plugin-camera-permission#readme"
+}
